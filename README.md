@@ -1,375 +1,76 @@
-<!--
-  AMAR KUMAR DAS | GLASSMORPHISM GITHUB PROFILE
-  Repository: amarkrdas
--->
+# Hi there! 👋 I'm Amar Kumar Das
 
-<div align="center">
+<p align="center">
+  <b>Software Developer</b> | Building Robust Enterprise Web Apps, REST APIs & Embedded Integrations
+</p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B18,45:312E81,100:06B6D4&height=220&section=header&text=AMAR%20KUMAR%20DAS&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=SOFTWARE%20DEVELOPER%20%7C%20BACKEND%20%7C%20API%20ENGINEERING&descSize=13&descAlignY=58&animation=fadeIn" alt="Portfolio banner"/>
-
-<a href="https://www.linkedin.com/in/amarkrdas">
-<img src="https://img.shields.io/badge/LINKEDIN-0D1328?style=for-the-badge&logo=linkedin&logoColor=8B9CFF" alt="LinkedIn"/>
-</a>
-<a href="mailto:amarkrdas1905@gmail.com">
-<img src="https://img.shields.io/badge/EMAIL-0D1328?style=for-the-badge&logo=gmail&logoColor=FF8A9A" alt="Email"/>
-</a>
-<a href="https://github.com/amarkrdas">
-<img src="https://img.shields.io/badge/GITHUB-0D1328?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/>
-</a>
-
-<br/>
-
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=1000&color=8B9CFF&center=true&vCenter=true&width=600&lines=Building+Modern+Web+Applications;Designing+Reliable+REST+APIs;Engineering+Database-Driven+Systems;Developing+Android+Applications" alt="Typing introduction"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/EXPERIENCE-3%2B%20YEARS-8B9CFF?style=flat-square&labelColor=10162B" alt="Experience"/>
-<img src="https://img.shields.io/badge/BASED%20IN-RANCHI%2C%20INDIA-22D3EE?style=flat-square&labelColor=10162B" alt="Location"/>
-<img src="https://img.shields.io/badge/FOCUS-FULL%20STACK%20SYSTEMS-C4B5FD?style=flat-square&labelColor=10162B" alt="Focus"/>
-
-</div>
+<p align="center">
+  📍 Ranchi, Jharkhand, India &nbsp;&bull;&nbsp;
+  📧 <a href="mailto:amarkrdas1905@gmail.com">amarkrdas1905@gmail.com</a> &nbsp;&bull;&nbsp;
+  📞 +91 7481099770 &nbsp;&bull;&nbsp;
+  <a href="https://linkedin.com">LinkedIn</a> &nbsp;&bull;&nbsp;
+  <a href="https://github.com">GitHub</a> &nbsp;&bull;&nbsp;
+  <a href="https://portfolio-link.com">Portfolio</a>
+</p>
 
 ---
 
-## <img src="https://img.shields.io/badge/01-ABOUT%20ME-8B9CFF?style=flat-square" alt="01 About me"/>
+## 👨‍💻 About Me
 
-<table>
-<tr>
-<td width="62%" valign="top">
-
-### Turning ideas into working software.
-
-I'm **Amar Kumar Das**, a Software Developer with 3+ years of professional experience building enterprise web applications, REST APIs, database-driven systems, and Android applications.
-
-Currently at **Sigma eSolution Pvt. Ltd.**, I work on real-world software solutions involving visitor management, access control, vehicle verification, and attendance automation.
-
-My approach combines reliable backend engineering, practical database design, and user-focused application development.
-
-* ◈ Enterprise web application development
-* ◈ REST API design and system integration
-* ◈ Database optimization and synchronization
-* ◈ Android development and face-based identification
-* ◈ Automated access-control workflows
-
-</td>
-<td width="38%" valign="middle" align="center">
-
-<img src="https://img.shields.io/badge/BACKEND-PHP%20%26%20SLIM-8B9CFF?style=for-the-badge&labelColor=10162B" alt="Backend"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/DATABASE-MYSQL%20%26%20SQL-22D3EE?style=for-the-badge&labelColor=10162B" alt="Database"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/MOBILE-ANDROID%20%26%20JAVA-C4B5FD?style=for-the-badge&labelColor=10162B" alt="Mobile"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/APIs-REST%20%26%20JSON-FDA4AF?style=for-the-badge&labelColor=10162B" alt="APIs"/>
-
-</td>
-</tr>
-</table>
+I am a **Software Developer** with **3+ years of experience** specializing in developing, maintaining, and scaling enterprise web applications, high-performance REST APIs, and database-driven software solutions. My core expertise lies in **PHP, MySQL, JavaScript, Slim Framework, and Android (Java)**, along with extensive experience in hardware integration (RFID/UHF, ANPR, UVSS, and boom barriers).
 
 ---
 
-## <img src="https://img.shields.io/badge/02-TECH%20ARSENAL-8B9CFF?style=flat-square" alt="02 Tech arsenal"/>
+## 🛠️ Technical Skills
 
-<div align="center">
-
-### Languages
-
-<img src="https://skillicons.dev/icons?i=php,java,js,html,css&theme=dark" alt="Languages"/>
-
-### Frameworks & Libraries
-
-<img src="https://skillicons.dev/icons?i=bootstrap,jquery&theme=dark" alt="Frameworks"/>
-
-### Database, Tools & Platforms
-
-<img src="https://skillicons.dev/icons?i=mysql,mariadb,sqlite,git,github,postman,linux,apache&theme=dark" alt="Tools"/>
-
-<br/>
-
-<img src="https://img.shields.io/badge/SLIM%20FRAMEWORK-0F172A?style=flat-square&logo=php&logoColor=8B9CFF" alt="Slim Framework"/>
-<img src="https://img.shields.io/badge/REST%20API-0F172A?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="REST API"/>
-<img src="https://img.shields.io/badge/TCPDF-0F172A?style=flat-square&logo=adobeacrobatreader&logoColor=FDA4AF" alt="TCPDF"/>
-<img src="https://img.shields.io/badge/JASPERREPORTS-0F172A?style=flat-square&logo=databricks&logoColor=C4B5FD" alt="JasperReports"/>
-<img src="https://img.shields.io/badge/ANDROID-0F172A?style=flat-square&logo=android&logoColor=86EFAC" alt="Android"/>
-<img src="https://img.shields.io/badge/JSON%20%7C%20AJAX-0F172A?style=flat-square&logo=json&logoColor=FDE68A" alt="JSON and AJAX"/>
-
-</div>
+| Category | Technologies |
+| :--- | :--- |
+| **Programming Languages** | PHP, Java, JavaScript, SQL, HTML5, CSS3 |
+| **Frameworks & Libraries** | Slim Framework, jQuery, Bootstrap, TCPDF |
+| **Databases** | MySQL, MariaDB |
+| **Web Technologies** | REST APIs, JSON, AJAX, DataTables |
+| **Tools & Platforms** | XAMPP, Git, Apache Server, Windows Server, Linux, Postman |
+| **Specialized Skills** | API Development & Integration, PDF & Excel Report Generation, Image Processing & Base64 Handling, Database Optimization |
 
 ---
 
-## <img src="https://img.shields.io/badge/03-FEATURED%20PROJECTS-8B9CFF?style=flat-square" alt="03 Featured projects"/>
+## 💼 Professional Experience
 
-<table>
-<tr>
-<td width="50%" valign="top">
+### **Software Developer** | **Sigma eSolution Pvt. Ltd.** (Ranchi, Jharkhand)
+*2023 – Present*
+* **Enterprise Web Apps:** Develop and maintain visitor management, access control, and administrative systems using PHP, MySQL, JavaScript, and Slim Framework.
+* **REST API Architecture:** Design and integrate robust APIs for seamless communication between server databases, hardware controllers, and external endpoints.
+* **Hardware Integrations:** Integrated **RFID/UHF** and **ANPR (Automatic Number Plate Recognition)** vehicle entry systems with real-time transaction monitoring and automated boom barrier control.
+* **Android Development:** Built an Android attendance app for the **Jharkhand High Court** featuring face detection, local storage, profile synchronization, and geofencing-based verification.
+* **Workflow & Data Management:** Implemented database synchronization, business workflows, and reporting modules to ensure reliable data handling and system troubleshooting.
 
-<img src="https://img.shields.io/badge/01-ENTERPRISE-8B9CFF?style=flat-square" alt="Enterprise"/>
-
-### ◈ Visitor Management System
-
-Enterprise visitor registration and secure entry management with integrated approval workflows.
-
-**Core capabilities**
-
-* Visitor registration and verification
-* OTP authentication and approval workflows
-* Digital passes and ID card generation
-* Controller synchronization and access control
-* Administrative reports
-
-**Stack**
-
-`PHP` `MySQL` `Slim` `REST APIs` `JavaScript`
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/02-AUTOMATION-22D3EE?style=flat-square" alt="Automation"/>
-
-### ◈ ANPR Vehicle Entry
-
-Automated number plate verification integrated with vehicle records and access-control hardware.
-
-**Core capabilities**
-
-* Vehicle registration number validation
-* PASS / FAIL verification
-* Boom barrier control integration
-* Vehicle status display
-* Transaction tracking and reporting
-
-**Stack**
-
-`PHP` `MySQL` `REST APIs` `ANPR`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/03-ANDROID-C4B5FD?style=flat-square" alt="Android"/>
-
-### ◈ High Court Attendance App
-
-Android attendance application developed for officials of the Jharkhand High Court.
-
-**Core capabilities**
-
-* Employee registration and admin approval
-* Face-based employee identification
-* Approved profile and photo synchronization
-* Geofencing-based attendance restrictions
-* Server-side punch-in and punch-out
-
-**Stack**
-
-`Java` `Android` `SQLite` `CameraX` `ML Kit` `TensorFlow Lite`
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/04-INTEGRATION-FDA4AF?style=flat-square" alt="Integration"/>
-
-### ◈ Under Vehicle Surveillance
-
-Backend integration and transaction monitoring for vehicle surveillance systems.
-
-**Core capabilities**
-
-* UVSS controller API integration
-* Vehicle data validation
-* Transaction processing and synchronization
-* Monitoring and reconciliation reports
-
-**Stack**
-
-`PHP` `MySQL` `Slim` `REST APIs`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/05-REPORTING-22D3EE?style=flat-square" alt="Reporting"/>
-
-### ◈ Bihar State Finance Reports
-
-Financial-year reporting solution for structured financial data and comprehensive reports.
-
-**Core capabilities**
-
-* Financial report generation
-* Structured data presentation
-* Report formatting and analysis
-
-**Stack**
-
-`JasperReports` `SQL`
-
-</td>
-<td width="50%" valign="top">
-
-<img src="https://img.shields.io/badge/06-BUSINESS%20SYSTEMS-C4B5FD?style=flat-square" alt="Business systems"/>
-
-### ◈ Payroll Management System
-
-Web-based employee payroll management and salary calculation system.
-
-**Core capabilities**
-
-* Employee information management
-* Salary, deduction, and tax calculations
-* Attendance and time tracking
-* Payroll processing
-
-**Stack**
-
-`HTML` `CSS` `jQuery` `SQL`
-
-</td>
-</tr>
-</table>
-
-<details>
-<summary><b>＋ More professional project experience</b></summary>
-
-### GE Software Enhancement — AG(A&E), Bihar
-
-Contributed to software enhancements involving service history management, payslip generation, event tracking, and digital signature functionality.
-
-</details>
+### **Intern** | **Tata Steel – SNTI** (Jamshedpur)
+*May 2023*
 
 ---
 
-## <img src="https://img.shields.io/badge/04-WORK%20EXPERIENCE-8B9CFF?style=flat-square" alt="04 Work experience"/>
+## 🚀 Featured Projects
 
-<table>
-<tr>
-<td width="4%" bgcolor="#8B9CFF"></td>
-<td width="96%">
-
-### Software Developer
-
-**Sigma eSolution Pvt. Ltd.** · Ranchi, Jharkhand
-
-`2023 — Present`
-
-* Develop and maintain enterprise applications using PHP, MySQL, JavaScript, and Slim Framework.
-* Design REST APIs for communication between centralized servers, local controllers, and external systems.
-* Integrate RFID/UHF, ANPR, and UVSS-based systems.
-* Develop Android attendance workflows using face detection and geofencing.
-* Build reports, troubleshoot production issues, and improve database performance.
-
-</td>
-</tr>
-</table>
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| **Visitor Management System (VMS)** | Comprehensive platform for visitor registration, approval workflows, dynamic pass/ID generation, OTP-based verification, and multi-location access control. | PHP, Slim Framework, MySQL, JavaScript, REST APIs |
+| **ANPR-Based Vehicle Entry System** | Automated vehicle recognition system performing real-time PASS/FAIL database validation to trigger boom barriers and log transactions. | PHP, MySQL, JavaScript, ANPR Integration |
+| **Under Vehicle Surveillance System (UVSS)** | Backend APIs and data validation pipelines for secure vehicle inspection, transaction processing, and reconciliation. | PHP, REST APIs, MySQL |
+| **Jharkhand High Court Attendance App** | Android app featuring facial recognition, admin approvals, geofenced restrictions, and secure punch-in/punch-out tracking. | Java, Android SDK, MySQL, REST APIs |
+| **AG(A&E) Bihar GE Software Upgrades** | Enhanced legacy enterprise software with service history tracking, pay slip generation, event logging, and digital signatures. | PHP, MySQL, JavaScript |
+| **Bihar Financial Year Reporting** | Automated state financial performance reporting utilizing Jasper Reports for deep data insights. | Jasper Reports, SQL |
+| **Enterprise Payroll System** | Web application for calculating and disbursing employee wages, handling tax calculations, time-tracking, and attendance monitoring. | HTML, CSS, jQuery, SQL |
 
 ---
 
-## <img src="https://img.shields.io/badge/05-GITHUB%20ANALYTICS-8B9CFF?style=flat-square" alt="05 GitHub analytics"/>
+## 🎓 Education
 
-<div align="center">
-
-<a href="https://github.com/amarkrdas">
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=amarkrdas&show_icons=true&hide_border=true&bg_color=0D1328&title_color=8B9CFF&text_color=C9D1E8&icon_color=22D3EE&rank_icon=github" alt="GitHub statistics"/>
-</a>
-<a href="https://github.com/amarkrdas">
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarkrdas&layout=compact&hide_border=true&bg_color=0D1328&title_color=8B9CFF&text_color=C9D1E8" alt="Top programming languages"/>
-</a>
-
-<br/><br/>
-
-<img width="90%" src="https://streak-stats.demolab.com?user=amarkrdas&hide_border=true&background=0D1328&ring=8B9CFF&fire=22D3EE&currStreakLabel=8B9CFF&sideLabels=C9D1E8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="Contribution streak"/>
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-22D3EE?style=for-the-badge&labelColor=10162B" alt="Always learning"/>
-
-</div>
+* **B.Tech in Computer Science** | JUTRTC Institute of Technology, Ranchi (2019 – 2023) — **83.20%**
+* **Intermediate (CBSE)** | D.A.V. Public School Kedla, Ramgarh (2017 – 2019) — **84%**
+* **Matriculation (CBSE)** | D.A.V. Public School Kedla, Ramgarh (2015 – 2017) — **86%**
 
 ---
 
-## <img src="https://img.shields.io/badge/06-EDUCATION-C4B5FD?style=flat-square" alt="06 Education"/>
-
-<table>
-<tr>
-<td width="25%" valign="top">
-
-**2023**
-
-B.Tech
-
-</td>
-<td width="75%" valign="top">
-
-**Computer Science**
-
-RTC Institute of Technology, Ranchi
-
-`83.20%`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**2019**
-
-Intermediate
-
-</td>
-<td valign="top">
-
-D.A.V. Public School, Kedla · CBSE
-
-`84%`
-
-</td>
-</tr>
-<tr>
-<td valign="top">
-
-**2017**
-
-Matriculation
-
-</td>
-<td valign="top">
-
-D.A.V. Public School, Kedla · CBSE
-
-`86%`
-
-</td>
-</tr>
-</table>
-
----
-
-## <img src="https://img.shields.io/badge/07-LET'S%20CONNECT-8B9CFF?style=flat-square" alt="07 Let's connect"/>
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=rect&color=0:10162B,50:312E81,100:164E63&height=3&section=header" width="100%" alt="Gradient divider"/>
-
-### Have an interesting project in mind?
-
-I'm interested in building reliable software, exploring modern technologies, and collaborating on meaningful engineering projects.
-
-<br/>
-
-<a href="mailto:amarkrdas1905@gmail.com">
-<img src="https://img.shields.io/badge/LET'S%20TALK-EMAIL%20ME-8B9CFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me"/>
-</a>
-
-<a href="https://www.linkedin.com/in/amarkrdas">
-<img src="https://img.shields.io/badge/LET'S%20CONNECT-LINKEDIN-22D3EE?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-</a>
-
-<br/><br/>
-
-<sub>Designed with a developer's mindset · Built with passion and clean code.</sub>
-
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B18,45:312E81,100:06B6D4&height=100&section=footer" alt="Footer"/>
-
-</div>
+<p align="center">
+  ⭐ Feel free to reach out to collaborate on enterprise software, backend engineering, or IoT-integrated web solutions!
+</p>
