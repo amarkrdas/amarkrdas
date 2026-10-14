@@ -1,586 +1,375 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amar Kumar Das - Software Developer Portfolio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <style>
-        :root {
-            --primary-glow: rgba(99, 102, 241, 0.4);
-            --secondary-glow: rgba(236, 72, 153, 0.3);
-            --glass-bg: rgba(255, 255, 255, 0.05);
-            --glass-border: rgba(255, 255, 255, 0.12);
-            --glass-hover: rgba(255, 255, 255, 0.08);
-            --text-main: #f8fafc;
-            --text-muted: #94a3b8;
-            --accent: #818cf8;
-        }
+<!--
+  AMAR KUMAR DAS | GLASSMORPHISM GITHUB PROFILE
+  Repository: amarkrdas
+-->
 
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
+<div align="center">
 
-        body {
-            font-family: 'Plus Jakarta Sans', sans-serif;
-            background-color: #030712;
-            color: var(--text-main);
-            min-height: 100vh;
-            overflow-x: hidden;
-            position: relative;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            padding: 40px 20px;
-        }
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B18,45:312E81,100:06B6D4&height=220&section=header&text=AMAR%20KUMAR%20DAS&fontSize=42&fontColor=FFFFFF&fontAlignY=38&desc=SOFTWARE%20DEVELOPER%20%7C%20BACKEND%20%7C%20API%20ENGINEERING&descSize=13&descAlignY=58&animation=fadeIn" alt="Portfolio banner"/>
 
-        /* Ambient Background Blobs */
-        .ambient-bg {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100vw;
-            height: 100vh;
-            overflow: hidden;
-            z-index: -1;
-            background: radial-gradient(circle at 50% 50%, #0f172a 0%, #030712 100%);
-        }
+<a href="https://www.linkedin.com/in/amarkrdas">
+<img src="https://img.shields.io/badge/LINKEDIN-0D1328?style=for-the-badge&logo=linkedin&logoColor=8B9CFF" alt="LinkedIn"/>
+</a>
+<a href="mailto:amarkrdas1905@gmail.com">
+<img src="https://img.shields.io/badge/EMAIL-0D1328?style=for-the-badge&logo=gmail&logoColor=FF8A9A" alt="Email"/>
+</a>
+<a href="https://github.com/amarkrdas">
+<img src="https://img.shields.io/badge/GITHUB-0D1328?style=for-the-badge&logo=github&logoColor=FFFFFF" alt="GitHub"/>
+</a>
 
-        .blob {
-            position: absolute;
-            border-radius: 50%;
-            filter: blur(80px);
-            opacity: 0.6;
-            animation: float 20s infinite alternate ease-in-out;
-        }
+<br/>
 
-        .blob-1 {
-            width: 450px;
-            height: 450px;
-            background: #4f46e5;
-            top: -10%;
-            left: -10%;
-        }
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=1000&color=8B9CFF&center=true&vCenter=true&width=600&lines=Building+Modern+Web+Applications;Designing+Reliable+REST+APIs;Engineering+Database-Driven+Systems;Developing+Android+Applications" alt="Typing introduction"/>
 
-        .blob-2 {
-            width: 400px;
-            height: 400px;
-            background: #db2777;
-            bottom: -10%;
-            right: -10%;
-            animation-delay: -5s;
-        }
+<br/>
 
-        .blob-3 {
-            width: 350px;
-            height: 350px;
-            background: #0ea5e9;
-            top: 40%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            animation-delay: -10s;
-        }
+<img src="https://img.shields.io/badge/EXPERIENCE-3%2B%20YEARS-8B9CFF?style=flat-square&labelColor=10162B" alt="Experience"/>
+<img src="https://img.shields.io/badge/BASED%20IN-RANCHI%2C%20INDIA-22D3EE?style=flat-square&labelColor=10162B" alt="Location"/>
+<img src="https://img.shields.io/badge/FOCUS-FULL%20STACK%20SYSTEMS-C4B5FD?style=flat-square&labelColor=10162B" alt="Focus"/>
 
-        @keyframes float {
-            0% { transform: translate(0, 0) scale(1); }
-            50% { transform: translate(30px, 50px) scale(1.1); }
-            100% { transform: translate(-20px, -30px) scale(0.9); }
-        }
+</div>
 
-        /* Main Glass Container */
-        .glass-container {
-            width: 100%;
-            max-width: 900px;
-            background: var(--glass-bg);
-            backdrop-filter: blur(20px);
-            -webkit-backdrop-filter: blur(20px);
-            border: 1px solid var(--glass-border);
-            border-radius: 24px;
-            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
-            padding: 40px;
-            z-index: 1;
-        }
+---
 
-        /* Header Section */
-        header {
-            text-align: center;
-            margin-bottom: 35px;
-            border-bottom: 1px solid var(--glass-border);
-            padding-bottom: 30px;
-        }
+## <img src="https://img.shields.io/badge/01-ABOUT%20ME-8B9CFF?style=flat-square" alt="01 About me"/>
 
-        h1 {
-            font-size: 2.5rem;
-            font-weight: 700;
-            letter-spacing: -0.025em;
-            margin-bottom: 8px;
-            background: linear-gradient(135deg, #ffffff 30%, #94a3b8 100%);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
+<table>
+<tr>
+<td width="62%" valign="top">
 
-        .subtitle {
-            font-size: 1.15rem;
-            font-weight: 600;
-            color: var(--accent);
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            margin-bottom: 15px;
-        }
+### Turning ideas into working software.
 
-        .contact-info {
-            display: flex;
-            justify-content: center;
-            flex-wrap: wrap;
-            gap: 16px;
-            font-size: 0.95rem;
-            color: var(--text-muted);
-        }
+I'm **Amar Kumar Das**, a Software Developer with 3+ years of professional experience building enterprise web applications, REST APIs, database-driven systems, and Android applications.
 
-        .contact-item {
-            display: flex;
-            align-items: center;
-            gap: 6px;
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid var(--glass-border);
-            padding: 6px 14px;
-            border-radius: 50px;
-            transition: all 0.3s ease;
-            text-decoration: none;
-            color: var(--text-muted);
-        }
+Currently at **Sigma eSolution Pvt. Ltd.**, I work on real-world software solutions involving visitor management, access control, vehicle verification, and attendance automation.
 
-        .contact-item:hover {
-            background: var(--glass-hover);
-            color: var(--text-main);
-            border-color: rgba(255, 255, 255, 0.25);
-            transform: translateY(-2px);
-        }
+My approach combines reliable backend engineering, practical database design, and user-focused application development.
 
-        .contact-item i {
-            color: var(--accent);
-        }
+* ◈ Enterprise web application development
+* ◈ REST API design and system integration
+* ◈ Database optimization and synchronization
+* ◈ Android development and face-based identification
+* ◈ Automated access-control workflows
 
-        /* Section Styling */
-        section {
-            margin-bottom: 35px;
-        }
+</td>
+<td width="38%" valign="middle" align="center">
 
-        section:last-child {
-            margin-bottom: 0;
-        }
+<img src="https://img.shields.io/badge/BACKEND-PHP%20%26%20SLIM-8B9CFF?style=for-the-badge&labelColor=10162B" alt="Backend"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/DATABASE-MYSQL%20%26%20SQL-22D3EE?style=for-the-badge&labelColor=10162B" alt="Database"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/MOBILE-ANDROID%20%26%20JAVA-C4B5FD?style=for-the-badge&labelColor=10162B" alt="Mobile"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/APIs-REST%20%26%20JSON-FDA4AF?style=for-the-badge&labelColor=10162B" alt="APIs"/>
 
-        h2 {
-            font-size: 1.25rem;
-            font-weight: 600;
-            letter-spacing: -0.01em;
-            margin-bottom: 16px;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-            color: #ffffff;
-            border-left: 3px solid var(--accent);
-            padding-left: 12px;
-        }
+</td>
+</tr>
+</table>
 
-        p {
-            font-size: 0.95rem;
-            line-height: 1.6;
-            color: var(--text-muted);
-        }
+---
 
-        /* Skills Grid */
-        .skills-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 16px;
-        }
+## <img src="https://img.shields.io/badge/02-TECH%20ARSENAL-8B9CFF?style=flat-square" alt="02 Tech arsenal"/>
 
-        .skill-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--glass-border);
-            border-radius: 14px;
-            padding: 16px;
-            transition: all 0.3s ease;
-        }
+<div align="center">
 
-        .skill-card:hover {
-            background: var(--glass-hover);
-            border-color: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
+### Languages
 
-        .skill-card h3 {
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: var(--accent);
-            margin-bottom: 8px;
-            text-transform: uppercase;
-            letter-spacing: 0.05em;
-        }
+<img src="https://skillicons.dev/icons?i=php,java,js,html,css&theme=dark" alt="Languages"/>
 
-        .tag-list {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-        }
+### Frameworks & Libraries
 
-        .tag {
-            font-size: 0.8rem;
-            background: rgba(255, 255, 255, 0.05);
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            padding: 4px 10px;
-            border-radius: 6px;
-            color: var(--text-main);
-        }
+<img src="https://skillicons.dev/icons?i=bootstrap,jquery&theme=dark" alt="Frameworks"/>
 
-        /* Experience & Projects List */
-        .timeline-item, .project-card {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--glass-border);
-            border-radius: 16px;
-            padding: 20px;
-            margin-bottom: 16px;
-            transition: all 0.3s ease;
-        }
+### Database, Tools & Platforms
 
-        .timeline-item:hover, .project-card:hover {
-            background: var(--glass-hover);
-            border-color: rgba(255, 255, 255, 0.2);
-            transform: translateY(-3px);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+<img src="https://skillicons.dev/icons?i=mysql,mariadb,sqlite,git,github,postman,linux,apache&theme=dark" alt="Tools"/>
 
-        .item-header {
-            display: flex;
-            justify-content: space-between;
-            align-items: flex-start;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-bottom: 8px;
-        }
+<br/>
 
-        .item-title {
-            font-size: 1.05rem;
-            font-weight: 600;
-            color: #ffffff;
-        }
+<img src="https://img.shields.io/badge/SLIM%20FRAMEWORK-0F172A?style=flat-square&logo=php&logoColor=8B9CFF" alt="Slim Framework"/>
+<img src="https://img.shields.io/badge/REST%20API-0F172A?style=flat-square&logo=fastapi&logoColor=22D3EE" alt="REST API"/>
+<img src="https://img.shields.io/badge/TCPDF-0F172A?style=flat-square&logo=adobeacrobatreader&logoColor=FDA4AF" alt="TCPDF"/>
+<img src="https://img.shields.io/badge/JASPERREPORTS-0F172A?style=flat-square&logo=databricks&logoColor=C4B5FD" alt="JasperReports"/>
+<img src="https://img.shields.io/badge/ANDROID-0F172A?style=flat-square&logo=android&logoColor=86EFAC" alt="Android"/>
+<img src="https://img.shields.io/badge/JSON%20%7C%20AJAX-0F172A?style=flat-square&logo=json&logoColor=FDE68A" alt="JSON and AJAX"/>
 
-        .item-subtitle {
-            font-size: 0.9rem;
-            color: var(--accent);
-            font-weight: 500;
-        }
+</div>
 
-        .item-date {
-            font-size: 0.85rem;
-            background: rgba(255, 255, 255, 0.05);
-            padding: 4px 10px;
-            border-radius: 20px;
-            color: var(--text-muted);
-            border: 1px solid var(--glass-border);
-        }
+---
 
-        ul.bullet-list {
-            margin-top: 10px;
-            padding-left: 18px;
-            color: var(--text-muted);
-            font-size: 0.92rem;
-            line-height: 1.5;
-        }
+## <img src="https://img.shields.io/badge/03-FEATURED%20PROJECTS-8B9CFF?style=flat-square" alt="03 Featured projects"/>
 
-        ul.bullet-list li {
-            margin-bottom: 6px;
-        }
+<table>
+<tr>
+<td width="50%" valign="top">
 
-        /* Projects Grid */
-        .projects-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-            gap: 16px;
-        }
+<img src="https://img.shields.io/badge/01-ENTERPRISE-8B9CFF?style=flat-square" alt="Enterprise"/>
 
-        .project-card {
-            margin-bottom: 0;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-        }
+### ◈ Visitor Management System
 
-        .project-desc {
-            font-size: 0.9rem;
-            margin-bottom: 14px;
-        }
+Enterprise visitor registration and secure entry management with integrated approval workflows.
 
-        .project-tech {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 6px;
-            margin-top: auto;
-        }
+**Core capabilities**
 
-        .project-tech span {
-            font-size: 0.75rem;
-            background: rgba(129, 140, 248, 0.1);
-            color: #a5b4fc;
-            border: 1px solid rgba(129, 140, 248, 0.2);
-            padding: 3px 8px;
-            border-radius: 4px;
-        }
+* Visitor registration and verification
+* OTP authentication and approval workflows
+* Digital passes and ID card generation
+* Controller synchronization and access control
+* Administrative reports
 
-        /* Education */
-        .edu-list {
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-        }
+**Stack**
 
-        .edu-item {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid var(--glass-border);
-            border-radius: 12px;
-            padding: 14px 18px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
+`PHP` `MySQL` `Slim` `REST APIs` `JavaScript`
 
-        .edu-details h3 {
-            font-size: 0.95rem;
-            color: #ffffff;
-            font-weight: 600;
-        }
+</td>
+<td width="50%" valign="top">
 
-        .edu-details p {
-            font-size: 0.85rem;
-        }
+<img src="https://img.shields.io/badge/02-AUTOMATION-22D3EE?style=flat-square" alt="Automation"/>
 
-        .edu-score {
-            font-size: 0.9rem;
-            font-weight: 600;
-            color: #34d399;
-            background: rgba(52, 211, 153, 0.1);
-            border: 1px solid rgba(52, 211, 153, 0.2);
-            padding: 4px 10px;
-            border-radius: 8px;
-        }
+### ◈ ANPR Vehicle Entry
 
-        /* Responsive */
-        @media (max-width: 768px) {
-            body {
-                padding: 20px 10px;
-            }
-            .glass-container {
-                padding: 24px;
-            }
-            h1 {
-                font-size: 2rem;
-            }
-        }
-    </style>
-</head>
-<body>
+Automated number plate verification integrated with vehicle records and access-control hardware.
 
-    <div class="ambient-bg">
-        <div class="blob blob-1"></div>
-        <div class="blob-2 blob"></div>
-        <div class="blob-3 blob"></div>
-    </div>
+**Core capabilities**
 
-    <div class="glass-container">
-        <!-- Header -->
-        <header>
-            <h1>AMAR KUMAR DAS</h1>
-            <div class="subtitle">Software Developer</div>
-            <div class="contact-info">
-                <a href="tel:+917481099770" class="contact-item"><i class="fas fa-phone"></i> +91 7481099770</a>
-                <a href="mailto:amarkrdas1905@gmail.com" class="contact-item"><i class="fas fa-envelope"></i> amarkrdas1905@gmail.com</a>
-                <span class="contact-item"><i class="fas fa-map-marker-alt"></i> Ranchi, Jharkhand</span>
-                <a href="https://linkedin.com" target="_blank" class="contact-item"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                <a href="https://github.com" target="_blank" class="contact-item"><i class="fab fa-github"></i> GitHub</a>
-                <a href="https://portfolio-link.com" target="_blank" class="contact-item"><i class="fas fa-globe"></i> Portfolio</a>
-            </div>
-        </header>
+* Vehicle registration number validation
+* PASS / FAIL verification
+* Boom barrier control integration
+* Vehicle status display
+* Transaction tracking and reporting
 
-        <!-- Profile / About -->
-        <section>
-            <h2><i class="fas fa-user-astronaut"></i> Profile</h2>
-            <p>Software Developer with 3+ years of experience in developing, maintaining, and enhancing enterprise web applications, REST APIs, and database-driven software solutions. Proficient in PHP, MySQL, JavaScript, HTML, CSS, and Slim Framework, with experience in Android application development using Java. Skilled in API integration, database synchronization, reporting, system troubleshooting, and developing responsive, user-friendly applications.</p>
-        </section>
+**Stack**
 
-        <!-- Technical Skills -->
-        <section>
-            <h2><i class="fas fa-code"></i> Technical Skills</h2>
-            <div class="skills-grid">
-                <div class="skill-card">
-                    <h3>Programming Languages</h3>
-                    <div class="tag-list">
-                        <span class="tag">PHP</span>
-                        <span class="tag">Java</span>
-                        <span class="tag">JavaScript</span>
-                        <span class="tag">SQL</span>
-                        <span class="tag">HTML5</span>
-                        <span class="tag">CSS3</span>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>Frameworks & Libraries</h3>
-                    <div class="tag-list">
-                        <span class="tag">Slim Framework</span>
-                        <span class="tag">jQuery</span>
-                        <span class="tag">Bootstrap</span>
-                        <span class="tag">TCPDF</span>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>Databases & Web Tech</h3>
-                    <div class="tag-list">
-                        <span class="tag">MySQL</span>
-                        <span class="tag">MariaDB</span>
-                        <span class="tag">REST APIs</span>
-                        <span class="tag">JSON</span>
-                        <span class="tag">AJAX</span>
-                        <span class="tag">DataTables</span>
-                    </div>
-                </div>
-                <div class="skill-card">
-                    <h3>Tools & Platforms</h3>
-                    <div class="tag-list">
-                        <span class="tag">Git</span>
-                        <span class="tag">XAMPP</span>
-                        <span class="tag">Apache</span>
-                        <span class="tag">Windows Server</span>
-                        <span class="tag">Linux</span>
-                        <span class="tag">Postman</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+`PHP` `MySQL` `REST APIs` `ANPR`
 
-        <!-- Experience -->
-        <section>
-            <h2><i class="fas fa-briefcase"></i> Professional Experience</h2>
-            
-            <div class="timeline-item">
-                <div class="item-header">
-                    <div>
-                        <div class="item-title">Software Developer</div>
-                        <div class="item-subtitle">Sigma eSolution Pvt. Ltd. • Ranchi, Jharkhand</div>
-                    </div>
-                    <div class="item-date">2023 – Present</div>
-                </div>
-                <ul class="bullet-list">
-                    <li>Develop, maintain, and enhance enterprise web applications for visitor management, access control, and administrative operations using PHP, MySQL, JavaScript, and Slim Framework.</li>
-                    <li>Design and integrate REST APIs to enable communication between server databases, local controllers, and external systems.</li>
-                    <li>Implement database synchronization, business workflows, and reporting modules to ensure reliable data processing and monitoring.</li>
-                    <li>Integrate RFID/UHF and ANPR-based vehicle entry systems, including vehicle verification, transaction monitoring, and boom barrier control.</li>
-                    <li>Develop Android-based attendance solutions for the Jharkhand High Court, incorporating face detection, employee profile synchronization, local data storage, and geofencing.</li>
-                    <li>Troubleshoot production issues, optimize application performance, and improve responsive user interfaces.</li>
-                </ul>
-            </div>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-            <div class="timeline-item">
-                <div class="item-header">
-                    <div>
-                        <div class="item-title">Intern</div>
-                        <div class="item-subtitle">Tata Steel – SNTI • Jamshedpur</div>
-                    </div>
-                    <div class="item-date">May 2023</div>
-                </div>
-            </div>
-        </section>
+<img src="https://img.shields.io/badge/03-ANDROID-C4B5FD?style=flat-square" alt="Android"/>
 
-        <!-- Projects -->
-        <section>
-            <h2><i class="fas fa-rocket"></i> Key Projects</h2>
-            <div class="projects-grid">
-                <div class="project-card">
-                    <div>
-                        <div class="item-title" style="margin-bottom: 6px;">Visitor Management System (VMS)</div>
-                        <p class="project-desc">Modules for visitor registration, approval workflows, pass & ID card generation, reporting, OTP authentication, and multi-location access control.</p>
-                    </div>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>Slim</span>
-                        <span>MySQL</span>
-                        <span>REST APIs</span>
-                    </div>
-                </div>
+### ◈ High Court Attendance App
 
-                <div class="project-card">
-                    <div>
-                        <div class="item-title" style="margin-bottom: 6px;">ANPR Vehicle Entry System</div>
-                        <p class="project-desc">Automatic Number Plate Recognition system performing PASS/FAIL server validation to trigger boom barriers and monitor transactions.</p>
-                    </div>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>ANPR</span>
-                        <span>Hardware Integration</span>
-                    </div>
-                </div>
+Android attendance application developed for officials of the Jharkhand High Court.
 
-                <div class="project-card">
-                    <div>
-                        <div class="item-title" style="margin-bottom: 6px;">Jharkhand High Court Attendance App</div>
-                        <p class="project-desc">Android application featuring facial recognition, admin approval workflows, profile sync, geofencing restrictions, and server punch-in/out.</p>
-                    </div>
-                    <div class="project-tech">
-                        <span>Java</span>
-                        <span>Android SDK</span>
-                        <span>MySQL</span>
-                        <span>REST APIs</span>
-                    </div>
-                </div>
+**Core capabilities**
 
-                <div class="project-card">
-                    <div>
-                        <div class="item-title" style="margin-bottom: 6px;">AG(A&E) Bihar GE Software Upgrades</div>
-                        <p class="project-desc">Enhanced legacy software with service history tracking, pay slip generation, event logging, and digital signatures adhering to judicial regulations.</p>
-                    </div>
-                    <div class="project-tech">
-                        <span>PHP</span>
-                        <span>MySQL</span>
-                        <span>JavaScript</span>
-                    </div>
-                </div>
-            </div>
-        </section>
+* Employee registration and admin approval
+* Face-based employee identification
+* Approved profile and photo synchronization
+* Geofencing-based attendance restrictions
+* Server-side punch-in and punch-out
 
-        <!-- Education -->
-        <section>
-            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
-            <div class="edu-list">
-                <div class="edu-item">
-                    <div class="edu-details">
-                        <h3>B.Tech (Computer Science)</h3>
-                        <p>JUTRTC Institute of Technology, Ranchi, Jharkhand (2019 – 2023)</p>
-                    </div>
-                    <div class="edu-score">83.20%</div>
-                </div>
-                <div class="edu-item">
-                    <div class="edu-details">
-                        <h3>Intermediate (CBSE)</h3>
-                        <p>D.A.V. Public School Kedla, Ramgarh, Jharkhand (2017 – 2019)</p>
-                    </div>
-                    <div class="edu-score">84.00%</div>
-                </div>
-                <div class="edu-item">
-                    <div class="edu-details">
-                        <h3>Matriculation (CBSE)</h3>
-                        <p>D.A.V. Public School Kedla, Ramgarh, Jharkhand (2015 – 2017)</p>
-                    </div>
-                    <div class="edu-score">86.00%</div>
-                </div>
-            </div>
-        </section>
-    </div>
+**Stack**
 
-</body>
-</html>
+`Java` `Android` `SQLite` `CameraX` `ML Kit` `TensorFlow Lite`
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/04-INTEGRATION-FDA4AF?style=flat-square" alt="Integration"/>
+
+### ◈ Under Vehicle Surveillance
+
+Backend integration and transaction monitoring for vehicle surveillance systems.
+
+**Core capabilities**
+
+* UVSS controller API integration
+* Vehicle data validation
+* Transaction processing and synchronization
+* Monitoring and reconciliation reports
+
+**Stack**
+
+`PHP` `MySQL` `Slim` `REST APIs`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/05-REPORTING-22D3EE?style=flat-square" alt="Reporting"/>
+
+### ◈ Bihar State Finance Reports
+
+Financial-year reporting solution for structured financial data and comprehensive reports.
+
+**Core capabilities**
+
+* Financial report generation
+* Structured data presentation
+* Report formatting and analysis
+
+**Stack**
+
+`JasperReports` `SQL`
+
+</td>
+<td width="50%" valign="top">
+
+<img src="https://img.shields.io/badge/06-BUSINESS%20SYSTEMS-C4B5FD?style=flat-square" alt="Business systems"/>
+
+### ◈ Payroll Management System
+
+Web-based employee payroll management and salary calculation system.
+
+**Core capabilities**
+
+* Employee information management
+* Salary, deduction, and tax calculations
+* Attendance and time tracking
+* Payroll processing
+
+**Stack**
+
+`HTML` `CSS` `jQuery` `SQL`
+
+</td>
+</tr>
+</table>
+
+<details>
+<summary><b>＋ More professional project experience</b></summary>
+
+### GE Software Enhancement — AG(A&E), Bihar
+
+Contributed to software enhancements involving service history management, payslip generation, event tracking, and digital signature functionality.
+
+</details>
+
+---
+
+## <img src="https://img.shields.io/badge/04-WORK%20EXPERIENCE-8B9CFF?style=flat-square" alt="04 Work experience"/>
+
+<table>
+<tr>
+<td width="4%" bgcolor="#8B9CFF"></td>
+<td width="96%">
+
+### Software Developer
+
+**Sigma eSolution Pvt. Ltd.** · Ranchi, Jharkhand
+
+`2023 — Present`
+
+* Develop and maintain enterprise applications using PHP, MySQL, JavaScript, and Slim Framework.
+* Design REST APIs for communication between centralized servers, local controllers, and external systems.
+* Integrate RFID/UHF, ANPR, and UVSS-based systems.
+* Develop Android attendance workflows using face detection and geofencing.
+* Build reports, troubleshoot production issues, and improve database performance.
+
+</td>
+</tr>
+</table>
+
+---
+
+## <img src="https://img.shields.io/badge/05-GITHUB%20ANALYTICS-8B9CFF?style=flat-square" alt="05 GitHub analytics"/>
+
+<div align="center">
+
+<a href="https://github.com/amarkrdas">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=amarkrdas&show_icons=true&hide_border=true&bg_color=0D1328&title_color=8B9CFF&text_color=C9D1E8&icon_color=22D3EE&rank_icon=github" alt="GitHub statistics"/>
+</a>
+<a href="https://github.com/amarkrdas">
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=amarkrdas&layout=compact&hide_border=true&bg_color=0D1328&title_color=8B9CFF&text_color=C9D1E8" alt="Top programming languages"/>
+</a>
+
+<br/><br/>
+
+<img width="90%" src="https://streak-stats.demolab.com?user=amarkrdas&hide_border=true&background=0D1328&ring=8B9CFF&fire=22D3EE&currStreakLabel=8B9CFF&sideLabels=C9D1E8&dates=94A3B8&currStreakNum=FFFFFF&sideNums=FFFFFF" alt="Contribution streak"/>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/STATUS-ALWAYS%20LEARNING-22D3EE?style=for-the-badge&labelColor=10162B" alt="Always learning"/>
+
+</div>
+
+---
+
+## <img src="https://img.shields.io/badge/06-EDUCATION-C4B5FD?style=flat-square" alt="06 Education"/>
+
+<table>
+<tr>
+<td width="25%" valign="top">
+
+**2023**
+
+B.Tech
+
+</td>
+<td width="75%" valign="top">
+
+**Computer Science**
+
+RTC Institute of Technology, Ranchi
+
+`83.20%`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**2019**
+
+Intermediate
+
+</td>
+<td valign="top">
+
+D.A.V. Public School, Kedla · CBSE
+
+`84%`
+
+</td>
+</tr>
+<tr>
+<td valign="top">
+
+**2017**
+
+Matriculation
+
+</td>
+<td valign="top">
+
+D.A.V. Public School, Kedla · CBSE
+
+`86%`
+
+</td>
+</tr>
+</table>
+
+---
+
+## <img src="https://img.shields.io/badge/07-LET'S%20CONNECT-8B9CFF?style=flat-square" alt="07 Let's connect"/>
+
+<div align="center">
+
+<img src="https://capsule-render.vercel.app/api?type=rect&color=0:10162B,50:312E81,100:164E63&height=3&section=header" width="100%" alt="Gradient divider"/>
+
+### Have an interesting project in mind?
+
+I'm interested in building reliable software, exploring modern technologies, and collaborating on meaningful engineering projects.
+
+<br/>
+
+<a href="mailto:amarkrdas1905@gmail.com">
+<img src="https://img.shields.io/badge/LET'S%20TALK-EMAIL%20ME-8B9CFF?style=for-the-badge&logo=gmail&logoColor=white" alt="Email me"/>
+</a>
+
+<a href="https://www.linkedin.com/in/amarkrdas">
+<img src="https://img.shields.io/badge/LET'S%20CONNECT-LINKEDIN-22D3EE?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
+</a>
+
+<br/><br/>
+
+<sub>Designed with a developer's mindset · Built with passion and clean code.</sub>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:080B18,45:312E81,100:06B6D4&height=100&section=footer" alt="Footer"/>
+
+</div>
